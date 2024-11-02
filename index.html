@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habibi welcome to development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <img
+          src="https://i.pinimg.com/originals/ef/f6/16/eff616bf1a4b4396a602ed54011272ec.png"
+          alt=""
+          class="logo"
+        />
+        <button class="btn popular">Most Popular</button>
+        <button class="btn movies">Movies</button>
+        <button class="btn tv">TV Series</button>
+        <form class="form">
+          <input type="text" name="search" id="search" class="search-inp" />
+          <button class="search-btn" aria-label="search" type="button">
+            <i class="ri-search-line"></i>
+          </button>
+        </form>
+      </header>
+      <div class="content">
+        <div class="left-part">
+          <h2 class="subtitle">#0 Loading Rank</h2>
+          <h1 class="title">LOADING</h1>
+          <p class="desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut in
+            officia ipsa ex. Corporis ex aspernatur similique explicabo enim!
+            Amet doloribus expedita optio provident corrupti sunt soluta
+            explicabo consequatur aperiam?
+          </p>
+          <div class="stars">
+            <i class="ri-star-fill star"></i>
+            <i class="ri-star-fill star"></i>
+            <i class="ri-star-fill star"></i>
+            <i class="ri-star-fill star"></i>
+            <i class="ri-star-fill star"></i>
+          </div>
+          <a href="/" class="primary" target="_blank" rel="noopener noreferrer">
+            <i class="ri-play-line"></i>
+            <span>Watch Trailer</span>
+          </a>
+        </div>
+        <div class="right-part gallery">
+          <img src="/k.jpg" alt="" class="gi1 g-img" loading="lazy" />
+          <img src="/k.jpg" alt="" class="gi2 g-img" loading="lazy" />
+          <img src="/k.jpg" alt="" class="gi3 g-img" loading="lazy" />
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
