@@ -20,12 +20,20 @@
           alt=""
           class="logo"
         />
-        <button class="btn popular">Most Popular</button>
-        <button class="btn movies">Movies</button>
-        <button class="btn tv">TV Series</button>
+        <button type="button" class="btn popular">Most Popular</button>
+        <button type="button" class="btn movies">Movies</button>
+        <button type="button" class="btn tv">TV Series</button>
         <form class="form">
-          <input type="text" name="search" id="search" class="search-inp" />
-          <button class="search-btn" aria-label="search" type="button">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            title="search"
+            placeholder="Search"
+            class="search-inp"
+            required
+          />
+          <button class="search-btn" aria-label="search" type="submit">
             <i class="ri-search-line"></i>
           </button>
         </form>

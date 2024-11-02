@@ -85,6 +85,23 @@ header .form input:focus {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+header .form input:focus + button {
+  border: 1px solid var(--pc);
+}
+
+header .form button {
+  border: 1px solid transparent;
+  width: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  height: 40px;
+}
+
+header .form button:hover {
+  border: 1px solid var(--pc);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 button,
 a {
   background-color: transparent;
